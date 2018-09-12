@@ -255,9 +255,13 @@ input[type=submit] {
     width: 100%;
     float: left;
     margin: 0px;
-    padding-right: 10%;
+
 }
 
     #logo {
     width: 100%;
+    float: none;
+    display: block;
+}
+
 }
