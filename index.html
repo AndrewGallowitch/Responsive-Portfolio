@@ -4,52 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
     <title>About | Andrew Gallowitch</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
-<body>
-    
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Andrew Gallowitch</a>
-            <nav>
-                <a href="index.html">About</a> 
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>        
+<style>
+    p {
+        font-size: 19px;
+    }
+</style>
+
+<body class="bg-warning">
+
+
+    <!-- Start Nav -->
+    <div class="sicky-top bg-primary border-secondary" id="header">
+        <div class="container p-0">
+            <nav class="navbar navbar-expand-lg p-0 m-0">
+                <h1 class="navbar-brand text-white py-4 m-0 font-weight-bold">Andrew Gallowitch</h1>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning active" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
-    </header>
-    
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
-        
-        <img src="assets/images/Profile_Image.jpg" class="auth-image" alt="Photo Unavailable">
-        
-        <p>My name is Andrew Gallowitch and I am 26 years young. I was born in Chicago, IL and moved to Charlotte,
-            NC shortly after with my family. I enjoy activities like snowboarding, hiking, surfing, and traveling. I never
-            really thought about traveling as something that I enjoy till somewhat recently.</p>
-        
-        <p>The Summer of 2015 I had the
-            chance to visit 5 different countries in Europe and it was one of the best experiences I have ever had. It was
-            interesting to see and be a part of different cultures as I hope to see more of the world one day.</p>
-        
-        <p>Another major passion of mine is Soccer. This sport has been a huge part of my life. I have played
-            for more than 20 years and was given the opportunity to play at the collegiate level. I must say, there was such
-            a special feeling of putting on a kit, lacing up a pair of boots, walking out on a clean cut pitch under the
-            lights and playing the beautiful game of soccer. Although I no longer play competitively I still enjoy being
-            a spectator of the sport.</p>
-        
-        </section>
+    </div>
+
+    <div id="main-container" class="container border border-primary border-2 my-4">
+        <div class="row bg-primary">
+            <h3 class="text-warning px-3 py-3">About Me</h3>
+        </div>
+
+        <div class="row bg-white">
+            <div class="col-12">
+                <img src="assets/images/profile_image.jpeg" class="img-thumbnail float-left p-1 mr-4 mt-3" alt="Photo Unavailable">
+
+                <div class="content my-3 text-primary">
+
+                    <p>My name is Andrew Gallowitch and I am currently studying Full Stack Web Development at UNCC coding
+                        bootcamp. I have previously obtained my B.A. in Business and Organizational Leadership from Brevard
+                        College finishing with a 3.5 gpa. I was able to do this all while working my way through college
+                        and demonstrating what it takes to be a student athlete. After graduating, I started my career as
+                        a data and marketing analyst where I worked with major retailers to maximize traffic and profits
+                        as well as creating product content for our vendors. A few characteristics I have displayed in my
+                        previous positions is a strong work ethic, the ability to juggle competing priorities successfully
+                        and practicing creative problem-solving skills with other team members as well as independently.
+                    </p>
+
+                    <p>I was then exposed to web developement when I took a self-paced online front end developement course.
+                        This sparked my interest in the world of Web Developement. Throughout my studies in the Full Stack
+                        program, I have developed skills from building web applictions using multiple coding languages to
+                        working with different server side libraries and tools. The most exciting thing about Web Developement
+                        for is that YOU ARE ALWAYS LEARNING!!
+                    </p>
+                    <br>
+                    <h5 class="text-center">PLEASE CHECKOUT MY PORTFOLIO IN THE NAVBAR LINK ABOVE!</h5>
+
+                </div>
+            </div>
+        </div>
+
 
     </div>
-    
-    <footer>
-        <div class="container">
-            Copyright &copy; 
-        </div>
-    </footer>    
+
+
+    <footer class="bg-primary text-white text-center fixed-bottom py-2 mt-4">
+        Copyright &copy; Andrew Gallowitch | 2018
+    </footer>
+
 </body>
 
 </html>

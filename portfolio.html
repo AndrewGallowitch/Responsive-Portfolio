@@ -4,71 +4,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
     <title>Portfolio | Andrew Gallowitch</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
-<body>
+<body class="bg-warning">
 
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Andrew Gallowitch</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+    <div class="sicky-top bg-primary border-secondary" id="header">
+        <div class="container p-0">
+            <nav class="navbar navbar-expand-lg p-0 m-0">
+                <h1 class="navbar-brand text-white py-4 m-0 font-weight-bold">Andrew Gallowitch</h1>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning active" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
-    </header>
-
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
-
-            <div class="work">
-
-                <a href="https://andrewgallowitch.github.io/Word_Guess_Game/"> <img src="assets/images/technics-q-c-640-480-1.jpg"
-                        alt="Word Guess"></a>
-                <h3>Word Guess</h3>
-            </div>
-            <div class="work">
-
-                <a href="https://andrewgallowitch.github.io/unit-4-game/"><img src="assets/images/technics-q-c-640-480-2.jpg"
-                        alt="RPG Game"></a>
-                <h3>Number Game</h3>
-            </div>
-            <div class="work">
-
-                <a href="https://andrewgallowitch.github.io/TriviaGame/"><img src="assets/images/technics-q-c-640-480-5.jpg"
-                        alt="Trivia Game"></a>
-                <h3>Trivia Game</h3>
-            </div>
-            <div class="work">
-
-                <a href="https://andrewgallowitch.github.io/Firebase-Train-Scheduler/"><img src="assets/images/technics-q-c-640-480-7.jpg"
-                        alt="Train Scheduler"></a>
-                <h3>Train Scheduler</h3>
-            </div>
-            <div class="work">
-
-                <a href="https://andrewgallowitch.github.io/GifTastic/"><img src="assets/images/technics-q-c-640-480-9.jpg"
-                        alt="GifTastic"></a>
-                <h3>GifTastic</h3>
-            </div>
-            <div class="work">
-
-                <a href="https://erict54757.github.io/One-feed/"><img src="assets/images/technics-q-c-640-480-2.jpg" alt="Project1"></a>
-                <h3>Project 1</h3>
-            </div>
-    </div>
-    </section>
-
     </div>
 
-    <footer>
-        <div class="container">
-            Copyright &copy;
+
+    <div id="main-container" class="container border border-primary border-2 my-4">
+        <div class="row bg-primary">
+            <h3 class="text-warning px-3 py-3">Portfolio</h3>
         </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="container">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12">
+                            <h6 class="text-primary text-center">Slide 1 web apps and projects</h6>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 my-3">
+                            <a href="https://andrewgallowitch.github.io/Word_Guess_Game/"> <img src="assets/images/Word_Guess_Game.png"
+                                    class="img-thumbnail" alt="Word Guess"><h4 class="text-center bg-primary text-white p-2">Word
+                                    Guess
+                                </h4></a>
+                        </div>
+                        <div class="col-4 my-3">
+                            <a href="https://andrewgallowitch.github.io/unit-4-game/"><img src="assets/images/Number_Game.png"
+                                    class="img-thumbnail" alt="Number Game"><h4 class="text-center bg-primary text-white p-2">Number
+                                    Game
+                                </h4></a>
+                        </div>
+                        <div class="col-4 my-3">
+                            <a href="https://andrewgallowitch.github.io/TriviaGame/"><img src="assets/images/Trivia_Game.png"
+                                    class="img-thumbnail" alt="Trivia Game"><h4 class="text-center bg-primary text-white p-2">Trivia
+                                    Game
+                                </h4></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 mb-5">
+                            <a href="https://andrewgallowitch.github.io/Firebase-Train-Scheduler/"> <img src="assets/images/Train_Scheduler.png"
+                                    class="img-thumbnail" alt="Firebase Train Scheduler"><h4 class="text-center bg-primary text-white p-2">Train
+                                    Schedule
+                                </h4></a>
+                        </div>
+                        <div class="col-4 mb-5">
+                            <a href="https://andrewgallowitch.github.io/GifTastic/"><img src="assets/images/GifTastic.png"
+                                    class="img-thumbnail" alt="GifTastic"><h4 class="text-center bg-primary text-white p-2">GifTastic
+                                </h4></a>
+                        </div>
+                        <div class="col-4 mb-5">
+                            <a href="https://andrewgallowitch.github.io/One-feed/"><img src="assets/images/Project OneFeed.png"
+                                    class="img-thumbnail" alt="Project OneFeed"><h4 class="text-center bg-primary text-white p-2">Project
+                                    OneFeed
+                                </h4></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- other carousel boxes below  -->
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12">
+                            <h6 class="text-primary text-center">Slide 2</h6>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-4 my-3">
+                            
+                        </div>
+                        <div class="col-4 my-3">
+                            
+                        </div>
+                        <div class="col-4 my-3">
+                            
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 mb-5">
+                            
+                        </div>
+                        <div class="col-4 mb-5">
+                            
+                        </div>
+                        <div class="col-4 mb-5">
+                            
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12">
+                            <h6 class="text-primary text-center">Slide 3</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span>Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span>Next</span>
+        </a>
+    </div>
+
+
+    <footer class="bg-primary text-white text-center fixed-bottom py-2 mt-4">
+        Copyright &copy; Andrew Gallowitch | 2018
     </footer>
 </body>
 
